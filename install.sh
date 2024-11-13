@@ -227,6 +227,7 @@ case "$OS" in
       [ "$OS_VER_MAJOR" == "18" ] && SUPPORTED=true
       [ "$OS_VER_MAJOR" == "20" ] && SUPPORTED=true
       [ "$OS_VER_MAJOR" == "22" ] && SUPPORTED=true
+      [ "$OS_VER_MAJOR" == "24" ] && SUPPORTED=true
     ;;
     centos)
       PHP_SOCKET="/var/run/php-fpm/controlpanel.sock"
